@@ -4,7 +4,6 @@
 
 ## Easy-to-use
 ```
-cd ShotDetect
 python shotdetect.py # to process a single video
 python shotdetect_p.py # to process a list of videos in parallel
 ```
