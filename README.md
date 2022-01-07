@@ -17,7 +17,7 @@ The repo is based on [PySceneDetect](py.scenedetect.com), which is under BSD 3-C
 ## Features
 - Parallel processing.
 - Keyframe saving.
-- Optimal detector that is tested on movie/tv epsoides scenarios, e.g., HSV-LUV joint model 
+- Optimal detector that is tested on movie/tv epsoides scenarios, e.g., HSV-LUV joint model.
 - Average sampler.
 
 ## Citation
