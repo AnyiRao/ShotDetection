@@ -11,7 +11,7 @@ python shotdetect_p.py # to process a list of videos in parallel
 ## Introduction
 Shot detection from videos
 with useful portals for long complicated videos, e.g., [movies](http://movienet.site/) scenarios.
-The repo is based on [PySceneDetect](py.scenedetect.com), which is under BSD 3-Clause License.
+The repo is based on [PySceneDetect](https://pyscenedetect.readthedocs.io/en/latest/), which is under BSD 3-Clause License.
 
 ## Features
 - Parallel processing.
