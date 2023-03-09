@@ -19,6 +19,21 @@ The repo is based on [PySceneDetect](https://pyscenedetect.readthedocs.io/en/lat
 - Optimal detector that is tested on movie/tv epsoides scenarios, e.g., HSV-LUV joint model.
 - Average sampler.
 
+## Misc
+The following function could help you to organize the output list file (in the case with three keyframes) into a dictionary.
+```
+def read_shot_list(txt_fn):
+    list_raw = read_txt_list(txt_fn)
+    shot_dict = {}
+    for shot_ind, item in enumerate(list_raw):
+        shot_dict[str(shot_ind).zfill(4)] = {
+            "start": int(item.split(" ")[0]),
+            "end": int(item.split(" ")[1]),
+            'keyf': int(item.split(" ")[3])
+            }
+    return shot_dict
+```
+
 ## Citation
 ```
 @inproceedings{rao2020local,
